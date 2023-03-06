@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Google OAuth</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="content">
+            <form>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">ACESSAR</button>
+                </div>
+            </form>
+            <div>
+                <p>Ou faça login utilizando sua conta Google:</p>
+                <div class="providers-wrapper">
+                    <img id="google" src="./assets/google-icon.svg" alt="Google" class="provider">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./src/index.js" type="module"></script>
+</body>
+
+</html>
